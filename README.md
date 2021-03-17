@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# Stop Reacting
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stop reacting, in this specific situation, is an invitation to act in favour of the well beings of everybody, stopping reacting to the digital stimulus that violate our human rights of dignity, equity, freedom, justice and peace. At the start of the 2020 decade, we are 3,5 billion daily consumers of smartphones and digital technologies, a complex network of interests and values that emerges from our reactive human condition.
 
-## Available Scripts
+Basically, when the result of an experience is pleasure, we react craving for more of the same experience, and then becoming attached by the external stimuli that had trigger the reaction. If the result is the opposite, for example, anguish, physical and/or emotional pain we react desiring the end of that misery, craving for relief. Both experiences alienate our autonomy of enjoying the present in exchange of a promised future. This reaction chain can be observed by everybody, configuring an intersubjective experience, which is more than fallible theoretical model. This hardship is a truth that we share, so hard to deny as the heat of the sun.
 
-In the project directory, you can run:
+The scope of this manifest is creating a support network for the billion of digital consumers, like you and me, that are exploited everyday through persuasion and manipulation techniques. The present combination of the digital technologies with the traditional publicity and propaganda strategies, theories and methodologies extrapolate the safe boundaries of the modern ethical and moral commitment based in the human rights. Dignity, equity, freedom, justice and peace have been corrupted by the digital reification process of our most basic rights.
 
-### `yarn start`
+Be persuaded and manipulated is a clear violation of our human dignity. It is a vertical and violent power imposed above another human that don’t have enough social and individual condition to defend themselves. Equity, justice and peace have become void words in the era of targeting algorithms, machine learning and growth hackings. The illusion of the consumers freedom of choice is clearer than ever.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This manifest is not the solution of the problem. First of all, we need to recognize that we are reacting far beyond the natural line of our individual and social stability. The future consequences are unpredictable, and we always have the opportunity to change the present, stop reacting.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Rodrigo Ferrari,
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2 September 2020.
