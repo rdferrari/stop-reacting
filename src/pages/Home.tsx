@@ -9,7 +9,7 @@ const ContentContainer = style.div`
   margin-right:auto;
   position: absolute;
   width: 100%;
-  top: 95vh;
+  top: 105vh;
   z-index: 105;
 
   @media only screen and (min-width: 768px) {
@@ -18,11 +18,25 @@ const ContentContainer = style.div`
 `;
 
 const IntroContainer = style.div`
+  margin-bottom: 130px;
   padding: 20px;
+`;
+
+const CardContainer = style.div`
+  margin-bottom: 50px;
 `;
 
 const IntroTitle = style.h2`
   color: #3C3C3C;
+  font-size: 30px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 50px;
+  }
+`;
+
+const IntroRod = style.h2`
+  color: #00D7F4;
   font-size: 30px;
 
   @media only screen and (min-width: 768px) {
@@ -38,12 +52,42 @@ function Home() {
       <ContentContainer>
         <IntroContainer>
           <IntroTitle>
-            Software engineering, UI and UX designing, digital media creating
-            and researching. This is what I am doing since I developed my first
-            Open Access Digital Repository in 2006.
+            "Stop Reacting Lab is my remote office, where I am helping to build
+            successful and balanced digital experiences."
           </IntroTitle>
+          <IntroRod>
+            {"< "}Rod :){" />"}
+          </IntroRod>
         </IntroContainer>
-        <Card />
+
+        <CardContainer>
+          <Card
+            videoName="free-style-flowbodies.mp4"
+            title="Strategy & Product Definition."
+            text="I can help you transform an idea into a fully viable product, starting by defining the goals and building a roadmap to the best possible solution."
+            link="/"
+            button="our work"
+          />
+        </CardContainer>
+
+        <CardContainer>
+          <Card
+            videoName="coding-video-edit.mp4"
+            title="Software engineer"
+            text="I build serverless React applications that are efficient, flexible and easy to maintain."
+            link="/"
+            button="our work"
+          />
+        </CardContainer>
+        <CardContainer>
+          <Card
+            videoName="research-flowbodies.mp4"
+            title="UI/UX Design"
+            text="I design beautiful, easy-to-use mobile and web products that meet your projetc and users needs."
+            link="/"
+            button="our work"
+          />
+        </CardContainer>
       </ContentContainer>
     </div>
   );

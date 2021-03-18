@@ -5,22 +5,18 @@ const VideoContainer = style.div`
 `;
 
 const VideoEl = style.video`
-display: inherit;
 object-fit: cover;
-left: 0;
-height: 90vh;
+height: 100vh;
 position: absolute;
-top: 0;
 width: 100%;
 z-index: -100;
 `;
 
 const Mask = style.div`
-background-color: black;
-height: 90vh;
+background-color: #C78200;
+height: 100vh;
 position: absolute;
-opacity: 0.55;
-position: relative;
+opacity: 0.30;
 width: 100%;
 z-index: -99;
 `;

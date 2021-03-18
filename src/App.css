@@ -32,6 +32,12 @@ h2 {
   font-family: textFontBold;
 }
 
+h3 {
+  color: #ebebeb;
+  font-family: titleFont;
+  letter-spacing: 5px;
+}
+
 p {
   color: #ebebeb;
   font-family: textFontLight;
