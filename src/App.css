@@ -1,4 +1,38 @@
 body {
   background-color: #ebebeb;
   margin: 0;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url("./fonts/Anton-Regular.ttf");
+}
+@font-face {
+  font-family: textFontLight;
+  src: url("./fonts/Quicksand-Light.ttf");
+}
+@font-face {
+  font-family: textFontRegular;
+  src: url("./fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: textFontBold;
+  src: url("./fonts/Quicksand-Bold.ttf");
+}
+
+h1 {
+  color: #ebebeb;
+  font-family: titleFont;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: #ebebeb;
+  font-family: textFontBold;
+}
+
+p {
+  color: #ebebeb;
+  font-family: textFontLight;
 }
