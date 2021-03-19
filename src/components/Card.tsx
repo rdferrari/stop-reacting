@@ -4,20 +4,25 @@ import Video from "./Video";
 
 const VideoEl = style.video`
 object-fit: cover;
-height: 100vh;
+height: 60vh;
 width: 100%;
+
+@media only screen and (min-width: 768px) {
+  height: 100vh;
+}
 `;
 
 const ContentContainer = style.div`
   background-color: #ebebeb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 20px;
-  margin-top: -110vh;
+  margin-top: -10vh;
   position: absolute;
   width: 90%;
 
 @media only screen and (min-width: 768px) {
   width: 400px;
+  margin-top: -110vh;
 }
 `;
 

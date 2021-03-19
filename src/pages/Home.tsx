@@ -18,12 +18,20 @@ const ContentContainer = style.div`
 `;
 
 const IntroContainer = style.div`
-  margin-bottom: 130px;
+  margin-bottom: 50px;
   padding: 20px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 130px;
+  }
 `;
 
 const CardContainer = style.div`
-  margin-bottom: 50px;
+  margin-bottom: 400px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 50px;
+  }
 `;
 
 const IntroTitle = style.h2`
@@ -52,8 +60,8 @@ function Home() {
       <ContentContainer>
         <IntroContainer>
           <IntroTitle>
-            "Stop Reacting Lab is my remote office, where I am helping to build
-            successful and balanced digital experiences."
+            "Stop Reacting Lab is my remote office, where I am helping people to
+            build successful and balanced digital experiences."
           </IntroTitle>
           <IntroRod>
             {"< "}Rod :){" />"}
@@ -63,10 +71,10 @@ function Home() {
         <CardContainer>
           <Card
             videoName="free-style-flowbodies.mp4"
-            title="Strategy & Product Definition."
-            text="I can help you transform an idea into a fully viable product, starting by defining the goals and building a roadmap to the best possible solution."
+            title="Research & Product Definition."
+            text="I can help you transform an idea into a fully viable product."
             link="/"
-            button="our work"
+            button="case studies"
           />
         </CardContainer>
 
@@ -76,7 +84,7 @@ function Home() {
             title="Software engineer"
             text="I build serverless React applications that are efficient, flexible and easy to maintain."
             link="/"
-            button="our work"
+            button="case studies"
           />
         </CardContainer>
         <CardContainer>
@@ -85,7 +93,7 @@ function Home() {
             title="UI/UX Design"
             text="I design beautiful, easy-to-use mobile and web products that meet your projetc and users needs."
             link="/"
-            button="our work"
+            button="case studies"
           />
         </CardContainer>
       </ContentContainer>
