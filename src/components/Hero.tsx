@@ -1,6 +1,5 @@
 import style from "styled-components";
 import Video from "./Video";
-import Card from "./Card";
 
 const HeroContainer = style.div`
   position: absolute;
@@ -35,7 +34,7 @@ const HeroText = style.p`
 function Hero() {
   return (
     <HeroContainer>
-      <Video videoName="Hero-Highline-small.mp4" />
+      <Video videoName="Hero-Highline-small-adjusted.mp4" />
       <HeroIntroContainer>
         <HeroTitle>Stop Reacting Lab</HeroTitle>
         <HeroText>

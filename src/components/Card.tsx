@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import style from "styled-components";
-import Video from "./Video";
 
 const VideoEl = style.video`
 object-fit: cover;
@@ -8,7 +7,7 @@ height: 60vh;
 width: 100%;
 
 @media only screen and (min-width: 768px) {
-  height: 100vh;
+  height: 80vh;
 }
 `;
 
@@ -22,7 +21,7 @@ const ContentContainer = style.div`
 
 @media only screen and (min-width: 768px) {
   width: 400px;
-  margin-top: -110vh;
+  margin-top: -90vh;
 }
 `;
 

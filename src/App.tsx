@@ -4,6 +4,8 @@ import ScrollToTop from "./ScrollToTop";
 // pages
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
+// Components
+import Footer from "./components/Footer";
 
 function App() {
   return (

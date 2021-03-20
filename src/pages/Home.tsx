@@ -1,6 +1,7 @@
 import style from "styled-components";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 
 const ContentContainer = style.div`
   left: 0;
@@ -70,7 +71,7 @@ function Home() {
 
         <CardContainer>
           <Card
-            videoName="free-style-flowbodies.mp4"
+            videoName="research-170-espraiado.mp4"
             title="Research & Product Definition."
             text="I can help you transform an idea into a fully viable product."
             link="/"
@@ -80,7 +81,7 @@ function Home() {
 
         <CardContainer>
           <Card
-            videoName="coding-video-edit.mp4"
+            videoName="software-engineering-floating-loop-edit.mp4"
             title="Software engineer"
             text="I build serverless React applications that are efficient, flexible and easy to maintain."
             link="/"
@@ -89,13 +90,14 @@ function Home() {
         </CardContainer>
         <CardContainer>
           <Card
-            videoName="research-flowbodies.mp4"
+            videoName="design-climb.mp4"
             title="UI/UX Design"
             text="I design beautiful, easy-to-use mobile and web products that meet your projetc and users needs."
             link="/"
             button="case studies"
           />
         </CardContainer>
+        <Footer />
       </ContentContainer>
     </div>
   );
