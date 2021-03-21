@@ -81,7 +81,7 @@ function Research() {
           <Brands src="/img/brands.png" />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-health-future.mp4"
             title="AUT Health and Future"
             text="We are rethinking the future of Māori community health integrated with
           digital experiences."
@@ -89,14 +89,14 @@ function Research() {
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-westpac.mp4"
             title="Westpac Te Reo Māori"
             text="Exploring Te Reo Māori learning digital experiences for the WestPac New Zealand staff."
             footer="< work in progress />"
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-meditation.mp4"
             title="SUTAM"
             text="Exploring meditation learning digital experiences for the Medini Vipassana centre, New Zealand."
             footer="< work in progress />"
