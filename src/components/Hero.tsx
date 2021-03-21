@@ -14,6 +14,7 @@ const HeroIntroContainer = style.div`
 `;
 
 const HeroTitle = style.h1`
+  color: #ebebeb;
   font-size: 28px;
   text-align: center;
 
@@ -23,6 +24,7 @@ const HeroTitle = style.h1`
 `;
 
 const HeroText = style.p`
+  color: #ebebeb;
   font-size: 18px;
   text-align: center;
 

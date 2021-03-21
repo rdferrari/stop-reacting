@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import style from "styled-components";
 
 const FooterContainer = style.div`
@@ -14,7 +13,7 @@ color: black;
 function Footer() {
   return (
     <FooterContainer>
-      <Text>© 2021 | Stop Reacting</Text>
+      <Text>© 2021 | Stop Reacting Lab</Text>
     </FooterContainer>
   );
 }

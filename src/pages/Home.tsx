@@ -1,7 +1,11 @@
+import ScrollAnimation from "react-animate-on-scroll";
+
 import style from "styled-components";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
+
+import "animate.css/animate.compat.css";
 
 const ContentContainer = style.div`
   left: 0;
@@ -57,24 +61,27 @@ function Home() {
   return (
     <div>
       <Hero />
-
       <ContentContainer>
         <IntroContainer>
-          <IntroTitle>
-            "Stop Reacting Lab is my remote office, where I am helping people to
-            build successful and balanced digital experiences."
-          </IntroTitle>
-          <IntroRod>
-            {"< "}Rod :){" />"}
-          </IntroRod>
+          <ScrollAnimation animateIn="fadeIn">
+            <IntroTitle>
+              "Stop Reacting Lab is my remote office, where I am helping
+              universities, governments and companies to build successful and
+              balanced digital experiences."
+            </IntroTitle>
+
+            <IntroRod>
+              {"< "}Rod :){" />"}
+            </IntroRod>
+          </ScrollAnimation>
         </IntroContainer>
 
         <CardContainer>
           <Card
             videoName="research-170-espraiado.mp4"
             title="Research & Product Definition."
-            text="I can help you transform an idea into a fully viable product."
-            link="/"
+            text="Helping transform ideas into fully viable products."
+            link="/research"
             button="case studies"
           />
         </CardContainer>
@@ -83,7 +90,7 @@ function Home() {
           <Card
             videoName="software-engineering-floating-loop-edit.mp4"
             title="Software engineer"
-            text="I build serverless React applications that are efficient, flexible and easy to maintain."
+            text="Building serverless React applications that are efficient, flexible and easy to maintain."
             link="/"
             button="case studies"
           />
@@ -92,7 +99,7 @@ function Home() {
           <Card
             videoName="design-climb.mp4"
             title="UI/UX Design"
-            text="I design beautiful, easy-to-use mobile and web products that meet your projetc and users needs."
+            text="Designing beautiful, easy-to-use mobile and web products that meet clients and users needs."
             link="/"
             button="case studies"
           />

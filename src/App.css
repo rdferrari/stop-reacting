@@ -22,23 +22,23 @@ body {
 }
 
 h1 {
-  color: #ebebeb;
+  color: #3c3c3c;
   font-family: titleFont;
   letter-spacing: 5px;
 }
 
 h2 {
-  color: #ebebeb;
+  color: #3c3c3c;
   font-family: textFontBold;
 }
 
 h3 {
-  color: #ebebeb;
+  color: #3c3c3c;
   font-family: titleFont;
   letter-spacing: 5px;
 }
 
 p {
-  color: #ebebeb;
+  color: #3c3c3c;
   font-family: textFontLight;
 }

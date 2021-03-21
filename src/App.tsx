@@ -4,8 +4,7 @@ import ScrollToTop from "./ScrollToTop";
 // pages
 import Home from "./pages/Home";
 import CardDetail from "./pages/CardDetail";
-// Components
-import Footer from "./components/Footer";
+import Research from "./pages/Research";
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/card/:id" component={CardDetail} />
+        <Route path="/research" component={Research} />
       </Switch>
     </Router>
   );

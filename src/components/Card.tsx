@@ -73,7 +73,7 @@ interface ICardProps {
   title: string;
   text: string;
   link: string;
-  button: string;
+  button?: string;
 }
 
 const VIDEO_URL =
@@ -90,9 +90,11 @@ function Card({ videoName, title, text, link, button }: ICardProps) {
         <TextContainer>
           <Title>{title}</Title>
           <Text>{text}</Text>
-          <Link to={link}>
-            <Button>{button}</Button>
-          </Link>
+          {button && (
+            <Link to={link}>
+              <Button>{button}</Button>
+            </Link>
+          )}
         </TextContainer>
       </ContentContainer>
     </>
