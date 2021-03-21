@@ -83,7 +83,7 @@ function Research() {
           <CardDetailContent
             videoName="research-health-future.mp4"
             title="AUT Health and Future"
-            text="We are rethinking the future of Māori community health integrated with
+            text="Rethinking the future of Māori community health integrated with
           digital experiences."
             footer="< work in progress />"
           />
@@ -103,21 +103,21 @@ function Research() {
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-uc.mp4"
             title="University of Canterbury"
             text="Researched and prototyped a web and mobile app for helping Rock Climbers with their trainaments and field notes."
             footer="< from February 2019 to June 2019 />"
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-me.mp4"
             title="Brazilian Sports Ministry"
             text="Researched and prototyped a web app to help managing a Brazilian sports, education and research national program."
             footer="< from June 2017 to June 2019 />"
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-idb.mp4"
             title="IDB"
             text="Researched and prototyped a web app to help managing 
             public investments associated with climate changes."
@@ -125,14 +125,14 @@ function Research() {
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-ufsc.mp4"
             title="UFSC"
             text="Researched and prototyped an Open Access Digital Repository to help organize and share the information and knowledge of a Brazilian sports, education and research national program."
             footer="< from June 2009 to December 2019 />"
           />
 
           <CardDetailContent
-            videoName="research-170-espraiado.mp4"
+            videoName="research-9too.mp4"
             title="9too"
             text="Researched and prototyped multiple VR digital experiences."
             footer="< from January 2016 to June 2017 />"
