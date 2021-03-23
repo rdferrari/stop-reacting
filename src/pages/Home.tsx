@@ -88,20 +88,20 @@ function Home() {
 
         <CardContainer>
           <Card
-            videoName="software-engineering-floating-loop-edit.mp4"
+            videoName="coding-hero.mp4"
             title="Software engineer"
             text="Building serverless React applications that are efficient, flexible and easy to maintain."
-            link="/"
-            button="case studies"
+            link="/engineer"
+            button="details"
           />
         </CardContainer>
         <CardContainer>
           <Card
-            videoName="design-climb.mp4"
+            videoName="software-engineering-floating-loop-edit.mp4"
             title="UI/UX Design"
             text="Designing beautiful, easy-to-use mobile and web products that meet clients and users needs."
-            link="/"
-            button="case studies"
+            link="/design"
+            button="details"
           />
         </CardContainer>
         <Footer />
